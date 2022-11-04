@@ -39,7 +39,7 @@ read_only = "  "
 format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
-symbol = "  "
+symbol = " "
 format = "via [$symbol$branch]($style) "
 truncation_symbol = "…/"
 style = "bold #00bd9c"
@@ -48,7 +48,7 @@ style = "bold #00bd9c"
 format = '[\($all_status$ahead_behind\)]($style) '
 style = "bold #00bd9c"
 conflicted = "  "
-up_to_date = "   "
+up_to_date = "  "
 untracked = "  "
 ahead = " ⇡${count} "
 diverged = " ⇕⇡${ahead_count} ⇣${behind_count} "
@@ -70,7 +70,7 @@ python_binary = "python3"
 disabled = false
 
 [nodejs]
-format = "via [  $version](bold #98d33f) "
+format = "via [ $version](bold #98d33f) "
 disabled = false
 
 [ruby]
@@ -81,4 +81,4 @@ disabled = false
 disabled = true
 
 [package]
-format = "is on [   $version ](#bcf3ff)"
+format = "is on [  $version ](#bcf3ff)"
