@@ -26,7 +26,7 @@ show_always = true
 
 [hostname]
 ssh_only = false
-format = "on [$hostname](#495162) "
+format = "in [$hostname](#495162) "
 disabled = false
 
 [directory]
@@ -40,17 +40,17 @@ format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
 symbol = "  "
-format = " via [$symbol$branch]($style) "
+format = "on [$symbol$branch]($style) "
 truncation_symbol = "…/"
 style = "bold #00bd9c"
 
 [git_status]
-format = '[\($all_status$ahead_behind \)]($style)'
+format = '[\($all_status$ahead_behind \) ]($style)'
 style = "bold #00bd9c"
 conflicted = "  "
 up_to_date = "  "
 untracked = "  "
-ahead = " ⇡${count} "
+ahead = " ⇡${count}"
 diverged = " ⇕⇡${ahead_count} ⇣${behind_count} "
 behind = " ⇣${count} "
 stashed = "  "
